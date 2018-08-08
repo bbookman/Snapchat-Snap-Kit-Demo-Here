@@ -2,6 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <key>SCSDKClientId</key>
+    <string>6bf9e1d8-f416-45e3-9182-c709d5a75b98</string>
+    <key>SCSDKRedirectUrl</key>
+    <string>https://developer.here.com</string>
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>snapchat</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>SnapKit</string>
+            </array>
+            <key>CFBundleURLName</key>
+            <string></string>
+        </dict>
+    </array>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Location will only be used when app is open</string>
+    <key>NSLocationUsageDescription</key>
+    <string>Location is used to create location relevant stickers</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
