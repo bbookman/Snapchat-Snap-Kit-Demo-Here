@@ -7,7 +7,7 @@ Inspired by [Location-aware Snapchat stickers with Snap Kit + HERE](https://deve
 
 You can find great instructions in the post [Location-aware Snapchat stickers with Snap Kit + HERE](https://developer.here.com/blog/here-maps-snap-kit), or follow along below - or do both
 
-**Note: ** If following the instructions in the Here post, an easy to miss detail is using the **JavaScript/REST** activation rather than the iOS SDK.  Use **JavaScript/REST**
+**Note:** If following the instructions in the Here post, an easy to miss detail is using the **JavaScript/REST** activation rather than the iOS SDK.  Use **JavaScript/REST**
 
 ## Snapchat Developer Portal
 
