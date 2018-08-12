@@ -22,6 +22,8 @@ The Podfile in this repository already contains what is required. [See this Snap
 
 Edit the **Info.plist** and add or modify as described below:
 
+Don't forget to remove all of the comments in the info.plist
+
 ```xml
     <key>SCSDKClientId</key>
     <string><OAUTH2 CLIENT ID></string> // See the step above in Snapchat Developer Protal
@@ -82,6 +84,10 @@ func createMapImage() -> UIImage {
             static var code = "YOUR-APP-CODE"
         }
 ```
+
+## Running the App
+
+[Run it on a physical phone](https://www.utest.com/articles/how-to-install-ios-apps-via-xcode-on-a-mac) so you can use the camera
 
 ## Resources
 * [Snapchat Snap Kit DIY Docs](https://github.com/bbookman/Snapchat-Snapkit-DIY-Docs)
