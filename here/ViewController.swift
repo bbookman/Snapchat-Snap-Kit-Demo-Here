@@ -38,8 +38,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     func createMapImage() -> UIImage {
         struct here {
-            static var id = "EfkqfZ62TU79j7VwnPsW"
-            static var code = "tf4pDMwFS1IEEs5sCeEaIA"
+            static var id = "YOUR-APP-ID"
+            static var code = "YOUR-APP-CODE"
         }
         
         let lat = locationManager.location!.coordinate.latitude

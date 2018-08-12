@@ -1,14 +1,22 @@
 # Snapchat-Snap-Kit-Demo-Here
-iOS App in Swift uses Here Geolocation to make a map that can be added to a snap in Snapchat
+iOS App in Swift uses Here Geolocation to make a map sticker that can be added to a snap in Snapchat
+
+Inspired by [Location-aware Snapchat stickers with Snap Kit + HERE](https://developer.here.com/blog/here-maps-snap-kit)
 
 # Instructions
-## From Here
-[Here Maps Snap Kit](https://developer.here.com/blog/here-maps-snap-kit)
+
+You can find great instructions in the post [Location-aware Snapchat stickers with Snap Kit + HERE](https://developer.here.com/blog/here-maps-snap-kit), or follow along below - or do both
+
+**Note: ** If following the instructions in the Here post, an easy to miss detail is using the **JavaScript/REST** activation rather than the iOS SDK.  Use **JavaScript/REST**
 
 ## Snapchat Developer Portal
 
 1. Sign up for an account on the [Snapchat Dev Portal](https://kit.snapchat.com/)
 2. Note / copy the value in **Development App Info** > **OAUTH2 CLIENT ID**
+
+## Get Snapchat Snap Kit using Cocoapods
+
+The Podfile in this repository already contains what is required. [See this Snapchat doc](https://docs.snapchat.com/docs/downloads/).  Just run **pod install**
 
 ## Info.plist
 
@@ -60,7 +68,22 @@ The info.plist in this repository is complete and only requires the unique value
 * OAUTH2 CLIENT ID (Development)
 * Redirect URLs
 
+## Sign up for Here SDK
+Simple.  Go to [developer.here.com](https://developer.here.com/) and get a free account.  When you get to the point of choosing your SDK, choose **JavaScript/REST**
+
+Make note of the **App ID** and the **App Code** that are displayed after activation.
+
+In the ViewController.swift file, you will see the code below.  Replace
+
+```swift
+func createMapImage() -> UIImage {
+        struct here {
+            static var id = "YOUR-APP-ID"
+            static var code = "YOUR-APP-CODE"
+        }
+```
+
 ## Resources
 * [Snapchat Snap Kit DIY Docs](https://github.com/bbookman/Snapchat-Snapkit-DIY-Docs)
 * [Snapchat Snap Kit Official Documentation](https://docs.snapchat.com/docs/)
-* [Here Maps Snap Kit](https://developer.here.com/blog/here-maps-snap-kit)
+* [Location-aware Snapchat stickers with Snap Kit + HERE](https://developer.here.com/blog/here-maps-snap-kit)

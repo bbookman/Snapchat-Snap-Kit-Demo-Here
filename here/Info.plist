@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>SCSDKClientId</key>
-    <string>6bf9e1d8-f416-45e3-9182-c709d5a75b98</string>
+    <string>OAUTH2 CLIENT ID</string> //SEE INSTRUCTIONS
     <key>SCSDKRedirectUrl</key>
     <string>https://developer.here.com</string>
     <key>LSApplicationQueriesSchemes</key>
@@ -15,12 +15,14 @@
         <dict>
             <key>CFBundleURLSchemes</key>
             <array>
-                <string>SnapKit</string>
+                <string>somethingunique</string> //SEE INSTRUCTIONS
             </array>
             <key>CFBundleURLName</key>
             <string></string>
         </dict>
     </array>
+    <key>SCSDKRedirectUrl</key>
+    <string>somethingunique://myapp</string> //SEE INSTRUCTIONS
     <key>NSLocationWhenInUseUsageDescription</key>
     <string>Location will only be used when app is open</string>
     <key>NSLocationUsageDescription</key>
