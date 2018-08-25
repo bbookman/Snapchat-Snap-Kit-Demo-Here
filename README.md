@@ -1,4 +1,4 @@
-# Snapchat-Snap-Kit-Demo-Here
+# Snapchat Snap Kit Mapping GPS/Location Sticker using Here SDK
 iOS App in Swift uses Here Geolocation to make a map sticker that can be added to a snap in Snapchat
 
 Inspired by [Location-aware Snapchat stickers with Snap Kit + HERE](https://developer.here.com/blog/here-maps-snap-kit)
